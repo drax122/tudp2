@@ -32,10 +32,11 @@ public class Zwierz {
     private String co_szama;
     private Wybieg wybieg;
 
-    public Zwierz(String rasa, String gatunek, String co_szama) {
+    public Zwierz(String rasa, String gatunek, String co_szama, Wybieg w) {
         this.rasa = rasa;
         this.gatunek = gatunek;
         this.co_szama = co_szama;
+        this.wybieg = w;
     }
     public Zwierz(){}
     @Id
