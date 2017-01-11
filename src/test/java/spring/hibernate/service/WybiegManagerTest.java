@@ -69,7 +69,7 @@ public class WybiegManagerTest {
         assertEquals(Sejf, nowyWybieg);
     }
     @Test
-    public void deleteWybieg() { // Ew. dodać jakieś zwierze do wybiegu i usunąć je przed 
+    public void deleteWybieg() { // Ew. dodać jakieś zwierze do wybiegu i usunąć je przed
 
         int ilosc = Sejf.size();
         Wybieg w = new Wybieg("Ruda", "121m2", "Terrarium");
