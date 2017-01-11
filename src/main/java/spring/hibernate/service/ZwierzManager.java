@@ -22,6 +22,7 @@ public class ZwierzManager implements ZwierzInterface {
         this.session = session;
     }
     @SuppressWarnings("unchecked")
+
     public List<Zwierz> getAllZwierze() {
         return session.getCurrentSession().getNamedQuery("zwierz.all").list();
     }

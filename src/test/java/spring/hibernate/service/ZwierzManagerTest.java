@@ -94,6 +94,7 @@ public class ZwierzManagerTest {
     public void getZwierzetaZWybiegu() {
         Wybieg w = new Wybieg("Elo320","213m2","Safari");
         wyTest.addWybieg(w);
+
         Zwierz z = new Zwierz("Kotowate","Lew","Miecho", w);
         zwTest.addZwierz(z);
         Zwierz z1 = new Zwierz("Kotowate","Tygrys","Miecho", w);
@@ -107,7 +108,7 @@ public class ZwierzManagerTest {
     }
 
     @Test
-    public void editPracownik() {
+    public void editZwierz() {
         Wybieg w = new Wybieg("Elo320","213m2","Safari");
         wyTest.addWybieg(w);
         Wybieg w1 = new Wybieg("Elo3201","2113m2","Sawanna");
